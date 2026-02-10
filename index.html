@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="assets\TTLakes\stylesheet.css">
+  <link rel="stylesheet" href="assets/TTLakes/stylesheet.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
   <link rel="stylesheet" href="styles.css">
 
@@ -13,136 +13,665 @@
 
 <body>
 
-  <main>
-    <p>
+<div class="side-menu-pc">
+
+      <div class="aside-top">
+
+        <div class="aside-top-left">
+          <button class="closebtn">
+            <img src="assets\images\burger (2).svg"
+             alt="burger" class="aside-top__element">
+         </button>
+          <img src="assets\images\Group (1).svg" alt="" class="aside-top__element-logo">
+        </div>
+
+        <div class="aside-top-right">
+          <img src="assets\images\search.svg" alt="" class="aside-top__element">
+        </div>
+
+      </div>
+
+
+
+      <aside class="aside-main">
+        <button class="aside-buttons">
+          Ремонт техники
+        </button>
+        <button class="aside-buttons">
+          Услуги и сервисы
+        </button>
+        <button class="aside-buttons">
+          Корпоративным клиентам
+        </button>
+        <button class="aside-buttons">
+          Продавцам техники
+        </button>
+        <button class="aside-buttons">
+          Партнерам
+        </button>
+        <button class="aside-buttons">
+          Производителям
+        </button>
+        <button class="aside-buttons">
+          Наши сервисные центры
+        </button>
+        <button class="aside-buttons">
+          Контакты
+        </button>
+
+      </aside>
+
+      <div class="aside-bottom">
+
+        <div class="aside-bottom__supportbtns">
+          <img src="assets\images\call.svg" alt="" class="aside-bottom__support">
+          <img src="assets\images\chat.svg" alt="" class="aside-bottom__support">
+          <img src="assets\images\profile.svg" alt="" class="aside-bottom__support">
+        </div>
+
+        <button class="email">
+          mail@cps.com
+        </button>
+
+        <p class="phone">
+          8 800 890 8900
+        </p>
+
+        <div class="aside-bottom__language">
+          <button class="language">
+            RU
+          </button>
+          <button class="language">
+            EN
+          </button>
+          <button class="language">
+            CH
+          </button>
+
+        </div>
+      </div>
+    </div>
+
+<div class="all">
+
+  <div class="overlay"></div>
+
+<!-- header start -->
+
+  <header class="header">
+    <div class="header__left">
+      <button type="submit" class="burgerbtn">
+      <img src="assets\images\burger.svg" alt="burgersvg" class="header__item">
+      </button>
+      <img src="assets\images\divider.svg" alt="dividersvg" class="header__item">
+      <img src="assets\images\Group (1).svg" alt="logo" class="header__item header__itemlogo">
+
+    </div>
+
+    <div class="header__right">
+      <img src="assets\images\call.svg" alt="call" class="header__item_tablet header__item">
+      <img src="assets\images\chat.svg" alt="chat" class="header__item_tablet header__item">
+      <img src="assets\images\profile.svg" alt="profile" class="header__item_tablet header__item">
+      <img src="assets\images\divider.svg" alt="divider" class="header__item_tablet header__item">
+      <img src="assets\images\repair.svg" alt="repairsvg" class="header__item ">
+      <img src="assets\images\checkstatus.svg" alt="checkstatussvg" class="header__item">
+    </div>
+  </header>
+
+<!-- header end -->
+
+  <main class="main">
+
+  
+    <!-- aside start -->
+    <div class="side-menu">
+
+      <div class="aside-top">
+
+        <div class="aside-top-left">
+          <button class="closebtn">
+            <img src="assets\images\burger (2).svg"
+             alt="burger" class="aside-top__element">
+         </button>
+          <img src="assets\images\Group (1).svg" alt="" class="aside-top__element-logo">
+        </div>
+
+        <div class="aside-top-right">
+          <img src="assets\images\search.svg" alt="" class="aside-top__element">
+        </div>
+
+      </div>
+
+
+
+      <aside class="aside-main">
+        <button class="aside-buttons">
+          Ремонт техники
+        </button>
+        <button class="aside-buttons">
+          Услуги и сервисы
+        </button>
+        <button class="aside-buttons">
+          Корпоративным клиентам
+        </button>
+        <button class="aside-buttons">
+          Продавцам техники
+        </button>
+        <button class="aside-buttons">
+          Партнерам
+        </button>
+        <button class="aside-buttons">
+          Производителям
+        </button>
+        <button class="aside-buttons">
+          Наши сервисные центры
+        </button>
+        <button class="aside-buttons">
+          Контакты
+        </button>
+
+      </aside>
+
+      <div class="aside-bottom">
+
+        <div class="aside-bottom__supportbtns">
+          <img src="assets\images\call.svg" alt="" class="aside-bottom__support">
+          <img src="assets\images\chat.svg" alt="" class="aside-bottom__support">
+          <img src="assets\images\profile.svg" alt="" class="aside-bottom__support">
+        </div>
+
+        <button class="email">
+          mail@cps.com
+        </button>
+
+        <p class="phone">
+          8 800 890 8900
+        </p>
+
+        <div class="aside-bottom__language">
+          <button class="language">
+            RU
+          </button>
+          <button class="language">
+            EN
+          </button>
+          <button class="language">
+            CH
+          </button>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- aside end -->
+
+    <div class="main-title-supportbtns">
+      <h1>
+        Услуги и сервисы
+      </h1>
+
+      <div class="main__supportbtns_desktop">
+        <p>Оставить заявку</p><img src="assets\images\repair.svg" alt="repairsvg">
+        <p>Статус ремонта</p><img src="assets\images\checkstatus.svg" alt="checkstatussvg">
+      </div>
+    </div>
+
+    <nav class="nav">
+      <button type="submit" class="nav__item_desktop nav__item_checked_desktop">
+        Ремонтируемые бренды
+      </button>
+      <button type="submit" class="nav__item nav__item_checked">
+        Ремонтируемые устройства
+      </button>
+      <button type="submit" class="nav__item_tablet nav__item_mobile nav__item">
+        Дополнительные услуги
+      </button>
+      <button type="submit" class="nav__item">
+        Цены на услуги
+      </button>
+      <button type="submit" class="nav__item_desktop">
+        Адреса сервисных центров
+      </button>
+      <button type="submit" class="nav__item">
+        Специальные цены
+      </button>
+    </nav>
+
+    <p class="reviews">
+      Отзывы
+    </p>
+
+    <div class="main-text">
+      <div class="main-text-wrapper">
+        <p class="main__text_mobile">
+          Мы являемся авторизованным сервисным центром по ремонту техники
+          Dell. Только у нас вы можете отремонтировать свой ноутбук Dell
+          с официальной гарантией производителя.
+        </p>
+        <br>
+        <p class="main__text_tablet">
+          Мы успешно работаем с 1992 года и
+          заслужили репутацию надежного партнера
+        </p>
+
+        <p class="main__text_desktop">
+          ,что подтверждает большое количество постоянных
+          клиентов. Мы гордимся тем что нам обращаются по
+          рекомендациям и, в свою очередь, советуют нас родным и близким.
+        </p>
+
+        <p class="lorem hidden">
+          Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Fugit error nobis
+          reprehenderit dolor repellendus
+          ut rerum id ullam asperiores
+          doloremque iure inventore qui
+          sequi eaque eius, harum in consequatur natus.
+        </p>
+
+
+        <button type="submit" class="main__readmore">
+          <img src="assets\images\expand.svg" alt="expand"> Читать далее
+        </button>
+      </div>
+
+      <div class="main-text__img">
+        <img src="assets\images\Picture Copy.svg" alt="mainpicture">
+
+      </div>
+
+  </main>
+
+  <div>
+    <p class="brand-title">
       РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ
     </p>
 
 
-    <!-- brand version & pc version -->
- <div class="main-container">
+    <!-- tablet version & pc version -->
+    <div class="brand-container">
 
-        <div class=" brand-card ">
-          <img src="assets\images\Bitmap.svg" alt="lenovo">
-          <img src="assets\images\go.svg" alt="">
-        </div>
+      <div class=" brand-card ">
+        <img src="assets\images\Bitmap.svg" alt="lenovo">
+        <img src="assets\images\go.svg" alt="">
+      </div>
 
-        <div class="brand-card">
-          <img src="assets\images\Bitmap (1).svg" alt="bosch">
-          <img src="assets\images\go.svg" alt="">
-        </div>
+      <div class="brand-card">
+        <img src="assets\images\Bitmap (1).svg" alt="bosch">
+        <img src="assets\images\go.svg" alt="">
+      </div>
 
-        <div class="brand-card">
-          <img src="assets\images\Bitmap (2).svg" alt="samsung">
-          <img src="assets\images\go.svg" alt="">
-        </div>
+      <div class="brand-card">
+        <img src="assets\images\Bitmap (2).svg" alt="samsung">
+        <img src="assets\images\go.svg" alt="">
+      </div>
 
-        <div class="brand-card">
-          <img src="assets\images\Bitmap (3).svg" alt="hp">
-          <img src="assets\images\go.svg" alt="">
-        </div>
+      <div class="brand-card">
+        <img src="assets\images\Bitmap (3).svg" alt="hp">
+        <img src="assets\images\go.svg" alt="">
+      </div>
 
-        <div class=" brand-card">
-          <img src="assets\images\Bitmap (4).svg" alt="apple">
-          <img src="assets\images\go.svg" alt="">
-        </div>
+      <div class=" brand-card">
+        <img src="assets\images\Bitmap (4).svg" alt="apple">
+        <img src="assets\images\go.svg" alt="">
+      </div>
 
-        <div class="brand-card">
-          <img src="assets\images\Bitmap (1).svg" alt="bosch">
-          <img src="assets\images\go.svg" alt="">
-        </div>
+      <div class="brand-card">
+        <img src="assets\images\Bitmap (1).svg" alt="bosch">
+        <img src="assets\images\go.svg" alt="">
+      </div>
 
-         <div class="brand-card pc-card">
-          <img src="assets\images\Bitmap (5).svg" alt="acer">
-          <img src="assets\images\go.svg" alt="">
-        </div>
+      <div class="brand-card pc-card">
+        <img src="assets\images\Bitmap (5).svg" alt="acer">
+        <img src="assets\images\go.svg" alt="">
+      </div>
 
-         <div class="brand-card pc-card">
-          <img src="assets\images\Bitmap.svg" alt="lenovo">
-          <img src="assets\images\go.svg" alt="">
-        </div>
+      <div class="brand-card pc-card">
+        <img src="assets\images\Bitmap.svg" alt="lenovo">
+        <img src="assets\images\go.svg" alt="">
+      </div>
 
-         <div class="brand-card hidden">
-          <img src="assets\images\Bitmap (5).svg" alt="viewsonic">
-          <img src="assets\images\go.svg" alt="">
-        </div>
+      <div class="brand-card hidden">
+        <img src="assets\images\Bitmap (5).svg" alt="viewsonic">
+        <img src="assets\images\go.svg" alt="">
+      </div>
 
-        <div class="brand-card hidden">
-          <img src="assets\images\Bitmap (7).svg" alt="sony">
-          <img src="assets\images\go.svg" alt="">
-        </div>
+      <div class="brand-card hidden">
+        <img src="assets\images\Bitmap (7).svg" alt="sony">
+        <img src="assets\images\go.svg" alt="">
+      </div>
 
-         <div class="brand-card hidden">
-          <img src="assets\images\Bitmap (3).svg" alt="hp">
-          <img src="assets\images\go.svg" alt="">
-        </div>
+      <div class="brand-card hidden">
+        <img src="assets\images\Bitmap (3).svg" alt="hp">
+        <img src="assets\images\go.svg" alt="">
+      </div>
 
- </div>
-
-     <div class="showmore">
-  <button class="showmorebtn" type="submit">
-    <img src="assets\images\expand.svg" alt="showmore">Показать все</button>
-</div>
+    </div>
 
 
-    <!-- mobile version -->
-    <div class="swiper">
+    <button class="showmorebtn-brand" data-target="brand" type="submit">
+      <img class="arrow" src="assets\images\expand.svg" alt="showmore">Показать все
+    </button>
+
+
+    <!-- mobile version + brand-swiper -->
+
+    <div class="swiper swiper-brand">
       <div class="swiper-wrapper">
 
-        <div class="swiper-slide">
+        <div class="swiper-slide slide-brand">
           <img src="assets\images\Bitmap.svg" alt="lenovo">
           <img src="assets\images\go.svg" alt="">
         </div>
 
-        <div class="swiper-slide ">
+        <div class="swiper-slide slide-brand">
           <img src="assets\images\Bitmap (1).svg" alt="bosch">
           <img src="assets\images\go.svg" alt="">
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide slide-brand">
           <img src="assets\images\Bitmap (2).svg" alt="samsung">
           <img src="assets\images\go.svg" alt="">
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide slide-brand">
           <img src="assets\images\Bitmap (3).svg" alt="hp">
           <img src="assets\images\go.svg" alt="">
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide slide-brand">
           <img src="assets\images\Bitmap (4).svg" alt="apple">
           <img src="assets\images\go.svg" alt="">
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide slide-brand">
           <img src="assets\images\Bitmap (5).svg" alt="acer">
           <img src="assets\images\go.svg" alt="">
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide slide-brand">
           <img src="assets\images\Bitmap (6).svg" alt="viewsonic">
           <img src="assets\images\go.svg" alt="">
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide slide-brand">
           <img src="assets\images\Bitmap (7).svg" alt="sony">
           <img src="assets\images\go.svg" alt="">
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide slide-brand">
           <img src="assets\images\Bitmap (7).svg" alt="sony">
           <img src="assets\images\go.svg" alt="">
         </div>
+
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+    </div>
+
+    <!-- tech-start -->
+
+    <p class="tech-title">
+      РЕМОНТ РАЗЛИЧНЫХ ВИДОВ ТЕХНИКИ
+    </p>
+
+    <div class="tech-container">
+
+      <div class="card-tech">
+        <p>Ремонт ноутбуков </p>
+        <img src="assets\images\go.svg" alt="">
+      </div>
+
+      <div class="card-tech">
+        <p> Ремонт смартфонов</p>
+        <img src="assets\images\go.svg" alt="">
+      </div>
+
+      <div class="card-tech">
+        <p>Ремонт наушников</p>
+        <img src="assets\images\go.svg" alt="">
+      </div>
+
+      <div class="card-tech pc-card ">
+        <p>Ремонт ПК</p>
+        <img src="assets\images\go.svg" alt="">
+      </div>
+
+      <div class="card-tech pc-card hidden">
+        <p> Ремонт принтеров</p>
+        <img src="assets\images\go.svg" alt="">
+      </div>
+
+    </div>
+
+
+    <button class="showmorebtn-tech" data-target="tech" type="submit">
+      <img class="arrow" src="assets\images\expand.svg" alt="showmore">Показать все</button>
+
+
+    <!-- tech-swiper -->
+
+    <div class="swiper swiper-tech">
+      <div class="swiper-wrapper ">
+
+        <div class="swiper-slide slide-tech">
+          <p>Ремонт ноутбуков </p>
+          <img src="assets\images\go.svg" alt="">
+        </div>
+
+        <div class="swiper-slide slide-tech">
+          <p> Ремонт смартфонов</p>
+          <img src="assets\images\go.svg" alt="">
+        </div>
+
+        <div class="swiper-slide slide-tech">
+          <p>Ремонт наушников</p>
+          <img src="assets\images\go.svg" alt="">
+        </div>
+
+        <div class="swiper-slide slide-tech">
+          <p>Ремонт smart часов</p>
+          <img src="assets\images\go.svg" alt="">
+        </div>
+
+        <div class="swiper-slide slide-tech">
+          <p> Ремонт телевизоров</p>
+          <img src="assets\images\go.svg" alt="">
+        </div>
+
+        <div class="swiper-slide slide-tech">
+          <p> Ремонт планшетов</p>
+          <img src="assets\images\go.svg" alt="">
+        </div>
+
+        <div class="swiper-slide slide-tech">
+          <p> Ремонт ПК</p>
+          <img src="assets\images\go.svg" alt="">
+        </div>
+
+        <div class="swiper-slide slide-tech">
+          <p>Ремонт принтеров</p>
+          <img src="assets\images\go.svg" alt="">
+        </div>
+
+        <div class="swiper-slide slide-tech">
+          <p> Ремонт мониторов</p>
+          <img src="assets\images\go.svg" alt="">
+        </div>
+
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+    </div>
+
+    <!-- service-start -->
+
+    <p class="service-title ">
+      ЦЕНЫ НА УСЛУГИ
+    </p>
+    <div class="table-top">
+      <div class="table-top-cell transparent">Ремонтные услуги</div>
+      <div class="table-top-cell transparent">Цена</div>
+      <div class="table-top-cell transparent">Срок</div>
+      <div class="table-top-cell"></div>
+    </div>
+    <div class="table-wrapper">
+
+      <div class="table">
+
+        <div class="table-cell-name">Диагностика</div>
+        <div class="table-cell">Бесплатно</div>
+        <div class="table-cell">30 мин</div>
+        <div class="table-cell-img"><img src="assets\images\Group 10 Copy 4.svg" alt=""></div>
+
+        <div class="table-cell-name">Замена дисплея</div>
+        <div class="table-cell">1000 ₽</div>
+        <div class="table-cell">30-120 мин</div>
+        <div class="table-cell-img"><img src="assets\images\Group 10 Copy 4.svg" alt=""></div>
+
+        <div class="table-cell-name">Замена полифонического динамика</div>
+        <div class="table-cell">1000 ₽</div>
+        <div class="table-cell">30-120 мин</div>
+        <div class="table-cell-img"><img src="assets\images\Group 10 Copy 4.svg" alt=""></div>
+
+        <div class="table-cell-name">Тестирование с выдачей технического заключения</div>
+        <div class="table-cell">1000 ₽</div>
+        <div class="table-cell">30-120 мин</div>
+        <div class="table-cell-img"><img src="assets\images\Group 10 Copy 4.svg" alt=""></div>
+
+        <div class="table-cell-name">Замена программного обеспечения</div>
+        <div class="table-cell">1000 ₽</div>
+        <div class="table-cell">30-120 мин</div>
+        <div class="table-cell-img"><img src="assets\images\Group 10 Copy 4.svg" alt=""></div>
 
       </div>
     </div>
+    <!-- service-swiper -->
 
-    <div class="swiper-pagination"></div>
-    <div class="slider-fade-right"></div>
+    <div class="swiper swiper-service">
+      <div class="swiper-wrapper swiper-wrapper-service">
 
-  </main>
+        <div class="swiper-slide slide-service">
+          <p class="transparent service-text">Ремонтные услуги</p>
+          <p>Диагностика</p>
+          <p class="transparent service-text">Цена</p>
+          <p>Бесплатно</p>
+          <p class="transparent service-text">Срок</p>
+          <p class="getbtn">30 мин <img src="assets\images\Group 10 Copy 4.svg" alt=""></p>
+        </div>
+
+        <div class="swiper-slide slide-service">
+          <p class="transparent service-text">Ремонтные услуги</p>
+          <p>Замена дисплея</p>
+          <p class="transparent service-text">Цена</p>
+          <p>1000 ₽ </p>
+          <p class="transparent service-text">Срок</p>
+          <p class="getbtn">30-120 мин <img src="assets\images\Group 10 Copy 4.svg" alt=""></p>
+        </div>
+
+        <div class="swiper-slide slide-service">
+          <p class="transparent service-text">Ремонтные услуги</p>
+          <p>Замена полифонического динамика</p>
+          <p class="transparent service-text">Цена</p>
+          <p>1000 ₽</p>
+          <p class="transparent service-text">Срок</p>
+          <p class="getbtn">30-120 мин <img src="assets\images\Group 10 Copy 4.svg" alt=""></p>
+        </div>
+
+        <div class="swiper-slide slide-service">
+          <p class="transparent service-text">Ремонтные услуги</p>
+          <p>Тестирование с выдачей технического заключения </p>
+          <p class="transparent service-text">Цена</p>
+          <p>1000 ₽</p>
+          <p class="transparent service-text">Срок</p>
+          <p class="getbtn">30-120 мин <img src="assets\images\Group 10 Copy 4.svg" alt=""></p>
+        </div>
+
+        <div class="swiper-slide slide-service">
+          <p class="transparent service-text">Ремонтные услуги</p>
+          <p>Замена программного обеспечения</p>
+          <p class="transparent service-text">Цена</p>
+          <p>1000 ₽</p>
+          <p class="transparent service-text">Срок</p>
+          <p class="getbtn">30-120 мин <img src="assets\images\Group 10 Copy 4.svg" alt=""></p>
+        </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+    </div>
+
+  </div>
+
+  <!-- start-footer -->
+
+  <footer>
+
+    <p class="footer-information-mobile">
+      Все цены указаны с учетом НДС стоимость ремонта
+      указана на единичную услугу. Для получения коммерческого
+      предложение на постоянное обслуживание, оставьте заявку.
+    </p>
+
+    <p class="footer-information-tablet-pc">
+      Все цены указаны с учетом НДС стоимость ремонта
+      указана на единичную услугу. Для получения коммерческого
+      предложение на постоянное обслуживание, оставьте заявку.
+    </p>
+
+    <a href="#" class="link-mobile">
+      Получить коммерческое предложение<img src="assets\images\more.svg" alt="">
+    </a>
+
+    <a href="#" class="link-tablet-pc">
+      Получить коммерческое предложение<img src="assets\images\more.svg" alt="">
+    </a>
+
+    <hr>
+
+    <div class="footer-tablet-pc">
+
+      <p class="transparent  text-left">
+        @2019 CPS <br> Разработано командой Apesong
+      </p>
+
+      <p class="transparent  text-middle">
+        Политика конфиденциальности
+      </p>
+
+      <p class="transparent  text-right">
+        Информация размещенная на данной странице,
+        не является публичной офертой
+      </p>
+
+    </div>
+
+    <div class="footer-mobile">
+
+      <p class="transparent">
+        @2019 CPS <br> Разработано командой Apesong
+      </p>
+
+      <p class="transparent ">
+        Политика конфиденциальности
+      </p>
+
+      <p class="transparent">
+        Информация размещенная на данной странице,
+        не является публичной офертой
+      </p>
+
+    </div>
 
 
+  </footer>
+
+</div>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   <script src="script.js"></script>
